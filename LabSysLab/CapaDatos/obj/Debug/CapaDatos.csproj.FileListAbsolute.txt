@@ -1,0 +1,5 @@
+c:\users\hector manuel\documents\visual studio 2015\Projects\LabSysLab\CapaDatos\bin\Debug\CapaDatos.dll
+c:\users\hector manuel\documents\visual studio 2015\Projects\LabSysLab\CapaDatos\bin\Debug\CapaDatos.pdb
+c:\users\hector manuel\documents\visual studio 2015\Projects\LabSysLab\CapaDatos\obj\Debug\CapaDatos.dll
+c:\users\hector manuel\documents\visual studio 2015\Projects\LabSysLab\CapaDatos\obj\Debug\CapaDatos.pdb
+c:\users\hector manuel\documents\visual studio 2015\Projects\LabSysLab\CapaDatos\obj\Debug\CapaDatos.csprojResolveAssemblyReference.cache

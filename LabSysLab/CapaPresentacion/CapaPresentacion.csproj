@@ -1,0 +1,397 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{99D07A44-9081-4446-A2F0-20DF718D0233}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CapaPresentacion</RootNamespace>
+    <AssemblyName>CapaPresentacion</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Shared, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="FlashControlV71, Version=1.0.3187.32366, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ConsultaExamenNum.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ConsultaExamenNum.Designer.cs">
+      <DependentUpon>ConsultaExamenNum.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CPConsultaOrdenMedica.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CPConsultaOrdenMedica.Designer.cs">
+      <DependentUpon>CPConsultaOrdenMedica.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CPConsultarEmpleadoC.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CPConsultarEmpleadoC.Designer.cs">
+      <DependentUpon>CPConsultarEmpleadoC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CPConsultarPacienteC.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CPConsultarPacienteC.Designer.cs">
+      <DependentUpon>CPConsultarPacienteC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CPConsultarUsuario.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CPConsultarUsuario.Designer.cs">
+      <DependentUpon>CPConsultarUsuario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CPIngresarEmpleadoC.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CPIngresarEmpleadoC.Designer.cs">
+      <DependentUpon>CPIngresarEmpleadoC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CPIngresarOrdenMedica.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CPIngresarOrdenMedica.Designer.cs">
+      <DependentUpon>CPIngresarOrdenMedica.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CPIngresarPacienteC.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CPIngresarPacienteC.Designer.cs">
+      <DependentUpon>CPIngresarPacienteC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CPIngresarResultados.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CPIngresarResultados.Designer.cs">
+      <DependentUpon>CPIngresarResultados.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CPIngresarUsuarioC.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CPIngresarUsuarioC.Designer.cs">
+      <DependentUpon>CPIngresarUsuarioC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CPLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CPLogin.Designer.cs">
+      <DependentUpon>CPLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CPMenuPrincipal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CPMenuPrincipal.Designer.cs">
+      <DependentUpon>CPMenuPrincipal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CPModificarExamen.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CPModificarExamen.Designer.cs">
+      <DependentUpon>CPModificarExamen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CPModificarOrdenMedica.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CPModificarOrdenMedica.Designer.cs">
+      <DependentUpon>CPModificarOrdenMedica.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CPModificarPacienteC.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CPModificarPacienteC.Designer.cs">
+      <DependentUpon>CPModificarPacienteC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CPModificarTest.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CPModificarTest.Designer.cs">
+      <DependentUpon>CPModificarTest.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CPModificarUsuario.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CPModificarUsuario.Designer.cs">
+      <DependentUpon>CPModificarUsuario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CPOrdenMedicaIndv.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CPOrdenMedicaIndv.Designer.cs">
+      <DependentUpon>CPOrdenMedicaIndv.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CPResulExamen.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CPResulExamen.Designer.cs">
+      <DependentUpon>CPResulExamen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CPTest.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CPTest.Designer.cs">
+      <DependentUpon>CPTest.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CPTipo_Examen.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CPTipo_Examen.Designer.cs">
+      <DependentUpon>CPTipo_Examen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CPVerResultado.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CPVerResultado.Designer.cs">
+      <DependentUpon>CPVerResultado.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="CPModificarEmpleadoC.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CPModificarEmpleadoC.Designer.cs">
+      <DependentUpon>CPModificarEmpleadoC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\Grafico.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Grafico.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reportes\GraficoPrint.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reportes\GraficoPrint.Designer.cs">
+      <DependentUpon>GraficoPrint.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\HistoricoPA.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reportes\HistoricoPA.Designer.cs">
+      <DependentUpon>HistoricoPA.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\HistoricoPaciente.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>HistoricoPaciente.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reportes\ReporteHistoricoExamen.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Reportes\ReporteHistoricoExamen.Designer.cs">
+      <DependentUpon>ReporteHistoricoExamen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\ReporteHistoricoExa.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ReporteHistoricoExa.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reportes\ReporteHistPersona.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Reportes\ReporteHistPersona.Designer.cs">
+      <DependentUpon>ReporteHistPersona.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\ReporteHstoricoExam.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reportes\ReporteHstoricoExam.Designer.cs">
+      <DependentUpon>ReporteHstoricoExam.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\VerGrafico.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Reportes\VerGrafico.Designer.cs">
+      <DependentUpon>VerGrafico.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="ConsultaExamenNum.resx">
+      <DependentUpon>ConsultaExamenNum.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CPConsultaOrdenMedica.resx">
+      <DependentUpon>CPConsultaOrdenMedica.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CPConsultarEmpleadoC.resx">
+      <DependentUpon>CPConsultarEmpleadoC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CPConsultarPacienteC.resx">
+      <DependentUpon>CPConsultarPacienteC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CPConsultarUsuario.resx">
+      <DependentUpon>CPConsultarUsuario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CPIngresarEmpleadoC.resx">
+      <DependentUpon>CPIngresarEmpleadoC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CPIngresarOrdenMedica.resx">
+      <DependentUpon>CPIngresarOrdenMedica.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CPIngresarPacienteC.resx">
+      <DependentUpon>CPIngresarPacienteC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CPIngresarResultados.resx">
+      <DependentUpon>CPIngresarResultados.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CPIngresarUsuarioC.resx">
+      <DependentUpon>CPIngresarUsuarioC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CPLogin.resx">
+      <DependentUpon>CPLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CPMenuPrincipal.resx">
+      <DependentUpon>CPMenuPrincipal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CPModificarExamen.resx">
+      <DependentUpon>CPModificarExamen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CPModificarOrdenMedica.resx">
+      <DependentUpon>CPModificarOrdenMedica.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CPModificarPacienteC.resx">
+      <DependentUpon>CPModificarPacienteC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CPModificarTest.resx">
+      <DependentUpon>CPModificarTest.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CPModificarUsuario.resx">
+      <DependentUpon>CPModificarUsuario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CPOrdenMedicaIndv.resx">
+      <DependentUpon>CPOrdenMedicaIndv.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CPResulExamen.resx">
+      <DependentUpon>CPResulExamen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CPTest.resx">
+      <DependentUpon>CPTest.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CPTipo_Examen.resx">
+      <DependentUpon>CPTipo_Examen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CPVerResultado.resx">
+      <DependentUpon>CPVerResultado.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="CPModificarEmpleadoC.resx">
+      <DependentUpon>CPModificarEmpleadoC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\Grafico.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Grafico.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\GraficoPrint.resx">
+      <DependentUpon>GraficoPrint.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\HistoricoPA.resx">
+      <DependentUpon>HistoricoPA.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\HistoricoPaciente.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>HistoricoPaciente.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\ReporteHistoricoExamen.resx">
+      <DependentUpon>ReporteHistoricoExamen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\ReporteHistoricoExa.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>ReporteHistoricoExa.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\ReporteHistPersona.resx">
+      <DependentUpon>ReporteHistPersona.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\ReporteHstoricoExam.resx">
+      <DependentUpon>ReporteHstoricoExam.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\VerGrafico.resx">
+      <DependentUpon>VerGrafico.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CapaNegocio\CapaNegocio.csproj">
+      <Project>{c75903e3-3446-44f8-bb38-5a72639db655}</Project>
+      <Name>CapaNegocio</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cibbva-retos-transformacion-en-innovacion-en-las-empresas.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tabla-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\prueba.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
