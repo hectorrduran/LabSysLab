@@ -10,7 +10,7 @@ namespace CapaDatos
 {
     public class Manejador
     {
-      
+      //jsjjsjs
         public SqlConnection conexion = new SqlConnection("Server=HECTORMANUEL;DataBase=Militar;Integrated Security=SSPI");
 
         public void Conectar()
