@@ -11,7 +11,7 @@ namespace CapaDatos
     public class Manejador
     {
       
-        public SqlConnection conexion = new SqlConnection("Server=PACHECO\\SQLEXPRESS;DataBase=Militar;Integrated Security=SSPI");
+        public SqlConnection conexion = new SqlConnection("Server=HECTORMANUEL;DataBase=Militar;Integrated Security=SSPI");
 
         public void Conectar()
         {

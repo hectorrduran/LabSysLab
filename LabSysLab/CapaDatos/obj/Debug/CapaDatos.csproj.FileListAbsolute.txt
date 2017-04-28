@@ -8,3 +8,8 @@ C:\Users\Nidia Rivas\Desktop\LabSysLab\CapaDatos\bin\Debug\CapaDatos.pdb
 C:\Users\Nidia Rivas\Desktop\LabSysLab\CapaDatos\obj\Debug\CapaDatos.csprojResolveAssemblyReference.cache
 C:\Users\Nidia Rivas\Desktop\LabSysLab\CapaDatos\obj\Debug\CapaDatos.dll
 C:\Users\Nidia Rivas\Desktop\LabSysLab\CapaDatos\obj\Debug\CapaDatos.pdb
+C:\Users\Hector Manuel\SysLab\LabSysLab\CapaDatos\bin\Debug\CapaDatos.dll
+C:\Users\Hector Manuel\SysLab\LabSysLab\CapaDatos\bin\Debug\CapaDatos.pdb
+C:\Users\Hector Manuel\SysLab\LabSysLab\CapaDatos\obj\Debug\CapaDatos.csprojResolveAssemblyReference.cache
+C:\Users\Hector Manuel\SysLab\LabSysLab\CapaDatos\obj\Debug\CapaDatos.dll
+C:\Users\Hector Manuel\SysLab\LabSysLab\CapaDatos\obj\Debug\CapaDatos.pdb
