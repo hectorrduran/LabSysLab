@@ -79,5 +79,10 @@ namespace CapaPresentacion
         {
             U.validar_Campo_num(e);
         }
+
+        private void groupBox1_Enter(object sender, EventArgs e)
+        {
+
+        }
     }
 }

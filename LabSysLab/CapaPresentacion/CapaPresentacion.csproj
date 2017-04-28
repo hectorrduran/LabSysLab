@@ -184,6 +184,11 @@
     <Compile Include="CPVerResultado.Designer.cs">
       <DependentUpon>CPVerResultado.cs</DependentUpon>
     </Compile>
+    <Compile Include="MilitarDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>MilitarDataSet.xsd</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="CPModificarEmpleadoC.cs">
@@ -355,6 +360,17 @@
     <EmbeddedResource Include="Reportes\VerGrafico.resx">
       <DependentUpon>VerGrafico.cs</DependentUpon>
     </EmbeddedResource>
+    <None Include="MilitarDataSet.xsc">
+      <DependentUpon>MilitarDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="MilitarDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>MilitarDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="MilitarDataSet.xss">
+      <DependentUpon>MilitarDataSet.xsd</DependentUpon>
+    </None>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -385,6 +401,42 @@
   </ItemGroup>
   <ItemGroup>
     <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fondo71.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fondo31.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\exit %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\male_user_add.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\save.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\save_all.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\save_all %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\save_all %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bill_of_document.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MENBRETE1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\male_user_edit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\male_user_search.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

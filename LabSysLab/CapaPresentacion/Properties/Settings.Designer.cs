@@ -32,5 +32,15 @@ namespace CapaPresentacion.Properties {
                 return ((string)(this["MilitarConnectionString"]));
             }
         }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=PACHECO\\SQLEXPRESS;Initial Catalog=Militar;Integrated Security=True")]
+        public string MilitarConnectionString1 {
+            get {
+                return ((string)(this["MilitarConnectionString1"]));
+            }
+        }
     }
 }

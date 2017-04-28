@@ -5,3 +5,10 @@ c:\users\hector manuel\documents\visual studio 2015\Projects\LabSysLab\CapaNegoc
 c:\users\hector manuel\documents\visual studio 2015\Projects\LabSysLab\CapaNegocio\obj\Debug\CapaNegocio.csprojResolveAssemblyReference.cache
 c:\users\hector manuel\documents\visual studio 2015\Projects\LabSysLab\CapaNegocio\obj\Debug\CapaNegocio.dll
 c:\users\hector manuel\documents\visual studio 2015\Projects\LabSysLab\CapaNegocio\obj\Debug\CapaNegocio.pdb
+C:\Users\Nidia Rivas\Desktop\LabSysLab\CapaNegocio\bin\Debug\CapaNegocio.dll
+C:\Users\Nidia Rivas\Desktop\LabSysLab\CapaNegocio\bin\Debug\CapaNegocio.pdb
+C:\Users\Nidia Rivas\Desktop\LabSysLab\CapaNegocio\bin\Debug\CapaDatos.dll
+C:\Users\Nidia Rivas\Desktop\LabSysLab\CapaNegocio\bin\Debug\CapaDatos.pdb
+C:\Users\Nidia Rivas\Desktop\LabSysLab\CapaNegocio\obj\Debug\CapaNegocio.csprojResolveAssemblyReference.cache
+C:\Users\Nidia Rivas\Desktop\LabSysLab\CapaNegocio\obj\Debug\CapaNegocio.dll
+C:\Users\Nidia Rivas\Desktop\LabSysLab\CapaNegocio\obj\Debug\CapaNegocio.pdb

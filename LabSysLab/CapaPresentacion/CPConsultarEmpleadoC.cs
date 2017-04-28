@@ -65,5 +65,10 @@ namespace CapaPresentacion
             Utilidades U = new Utilidades();
             U.validar_Campo_num(e);
         }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

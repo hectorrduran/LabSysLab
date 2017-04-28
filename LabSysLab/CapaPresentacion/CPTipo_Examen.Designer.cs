@@ -47,36 +47,50 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(93, 315);
+            this.button1.BackColor = System.Drawing.Color.White;
+            this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Image = global::CapaPresentacion.Properties.Resources.save_all__2_;
+            this.button1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button1.Location = new System.Drawing.Point(72, 336);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.Size = new System.Drawing.Size(95, 37);
             this.button1.TabIndex = 0;
             this.button1.Text = "Guardar";
-            this.button1.UseVisualStyleBackColor = true;
+            this.button1.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(191, 315);
+            this.button2.BackColor = System.Drawing.Color.White;
+            this.button2.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.Image = global::CapaPresentacion.Properties.Resources.exit__1_;
+            this.button2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button2.Location = new System.Drawing.Point(201, 336);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 23);
+            this.button2.Size = new System.Drawing.Size(95, 37);
             this.button2.TabIndex = 1;
             this.button2.Text = "Salir";
-            this.button2.UseVisualStyleBackColor = true;
+            this.button2.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.button2.UseVisualStyleBackColor = false;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(61, 67);
+            this.label1.BackColor = System.Drawing.Color.Transparent;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(49, 88);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(44, 13);
+            this.label1.Size = new System.Drawing.Size(50, 13);
             this.label1.TabIndex = 2;
             this.label1.Text = "Nombre";
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(111, 64);
+            this.textBox1.Location = new System.Drawing.Point(111, 85);
             this.textBox1.MaxLength = 50;
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(185, 20);
@@ -85,18 +99,21 @@
             // label10
             // 
             this.label10.AutoSize = true;
+            this.label10.BackColor = System.Drawing.Color.Transparent;
             this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.Location = new System.Drawing.Point(82, 13);
+            this.label10.ForeColor = System.Drawing.Color.White;
+            this.label10.Location = new System.Drawing.Point(97, 29);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(214, 25);
+            this.label10.Size = new System.Drawing.Size(187, 25);
             this.label10.TabIndex = 77;
-            this.label10.Text = "Ingresar Examenes";
+            this.label10.Text = "Ingresar examen";
             // 
             // groupBox1
             // 
+            this.groupBox1.BackColor = System.Drawing.Color.Transparent;
             this.groupBox1.Controls.Add(this.comboBox1);
             this.groupBox1.Controls.Add(this.button3);
-            this.groupBox1.Location = new System.Drawing.Point(52, 125);
+            this.groupBox1.Location = new System.Drawing.Point(52, 146);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(272, 55);
             this.groupBox1.TabIndex = 78;
@@ -114,6 +131,7 @@
             // 
             // button3
             // 
+            this.button3.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button3.Location = new System.Drawing.Point(181, 21);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(75, 23);
@@ -134,10 +152,10 @@
             this.Nombre,
             this.Column1});
             this.DgvSubTest.GridColor = System.Drawing.SystemColors.ControlLightLight;
-            this.DgvSubTest.Location = new System.Drawing.Point(20, 186);
+            this.DgvSubTest.Location = new System.Drawing.Point(13, 207);
             this.DgvSubTest.Name = "DgvSubTest";
             this.DgvSubTest.RowHeadersVisible = false;
-            this.DgvSubTest.Size = new System.Drawing.Size(360, 104);
+            this.DgvSubTest.Size = new System.Drawing.Size(367, 104);
             this.DgvSubTest.TabIndex = 79;
             this.DgvSubTest.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.DgvSubTest_CellContentClick);
             // 
@@ -165,18 +183,23 @@
             // checkBox1
             // 
             this.checkBox1.AutoSize = true;
-            this.checkBox1.Location = new System.Drawing.Point(111, 97);
+            this.checkBox1.BackColor = System.Drawing.Color.Transparent;
+            this.checkBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox1.Location = new System.Drawing.Point(111, 118);
             this.checkBox1.Name = "checkBox1";
             this.checkBox1.Size = new System.Drawing.Size(94, 17);
             this.checkBox1.TabIndex = 80;
             this.checkBox1.Text = "Generar Alerta";
-            this.checkBox1.UseVisualStyleBackColor = true;
+            this.checkBox1.UseVisualStyleBackColor = false;
             // 
             // CPTipo_Examen
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.BackgroundImage = global::CapaPresentacion.Properties.Resources.fondo3;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.Controls.Add(this.checkBox1);
             this.Controls.Add(this.DgvSubTest);
             this.Controls.Add(this.groupBox1);
@@ -186,7 +209,7 @@
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Name = "CPTipo_Examen";
-            this.Size = new System.Drawing.Size(391, 351);
+            this.Size = new System.Drawing.Size(389, 397);
             this.Load += new System.EventHandler(this.CPTipo_Examen_Load);
             this.groupBox1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.DgvSubTest)).EndInit();

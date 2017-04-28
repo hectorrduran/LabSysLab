@@ -43,7 +43,7 @@
             // nro_orden
             // 
             this.nro_orden.Enabled = false;
-            this.nro_orden.Location = new System.Drawing.Point(273, 67);
+            this.nro_orden.Location = new System.Drawing.Point(133, 67);
             this.nro_orden.Name = "nro_orden";
             this.nro_orden.Size = new System.Drawing.Size(77, 20);
             this.nro_orden.TabIndex = 96;
@@ -51,8 +51,10 @@
             // label4
             // 
             this.label4.AutoSize = true;
+            this.label4.BackColor = System.Drawing.Color.Transparent;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(158, 63);
+            this.label4.ForeColor = System.Drawing.Color.White;
+            this.label4.Location = new System.Drawing.Point(18, 63);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(109, 24);
             this.label4.TabIndex = 95;
@@ -100,7 +102,9 @@
             // label10
             // 
             this.label10.AutoSize = true;
+            this.label10.BackColor = System.Drawing.Color.Transparent;
             this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label10.ForeColor = System.Drawing.Color.White;
             this.label10.Location = new System.Drawing.Point(41, 14);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(284, 25);
@@ -109,12 +113,18 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(248, 271);
+            this.button1.BackColor = System.Drawing.Color.White;
+            this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Image = global::CapaPresentacion.Properties.Resources.exit__1_;
+            this.button1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button1.Location = new System.Drawing.Point(133, 284);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(102, 23);
+            this.button1.Size = new System.Drawing.Size(95, 37);
             this.button1.TabIndex = 97;
             this.button1.Text = "Salir";
-            this.button1.UseVisualStyleBackColor = true;
+            this.button1.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // CPOrdenMedicaIndv
@@ -122,13 +132,16 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.BackgroundImage = global::CapaPresentacion.Properties.Resources.fondo3;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.Controls.Add(this.button1);
             this.Controls.Add(this.nro_orden);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.label10);
             this.Name = "CPOrdenMedicaIndv";
-            this.Size = new System.Drawing.Size(367, 312);
+            this.Size = new System.Drawing.Size(365, 345);
             this.Load += new System.EventHandler(this.CPOrdenMedicaIndv_Load);
             this.groupBox2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.DgvSubTest)).EndInit();

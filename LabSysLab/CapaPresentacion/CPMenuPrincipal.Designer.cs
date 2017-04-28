@@ -59,6 +59,7 @@
             this.consultarToolStripMenuItem4 = new System.Windows.Forms.ToolStripMenuItem();
             this.modificarToolStripMenuItem6 = new System.Windows.Forms.ToolStripMenuItem();
             this.estadisticaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.graficosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.reporteToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.pruebaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.reporte2ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -72,7 +73,6 @@
             this.toolStripLabel1 = new System.Windows.Forms.ToolStripLabel();
             this.toolStripLabel2 = new System.Windows.Forms.ToolStripLabel();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
-            this.graficosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
             this.menuStrip1.SuspendLayout();
@@ -263,26 +263,27 @@
             this.modificarToolStripMenuItem3});
             this.examenesToolStripMenuItem.Name = "examenesToolStripMenuItem";
             this.examenesToolStripMenuItem.Size = new System.Drawing.Size(71, 20);
-            this.examenesToolStripMenuItem.Text = "Examenes";
+            this.examenesToolStripMenuItem.Text = "Exámenes";
+            this.examenesToolStripMenuItem.Click += new System.EventHandler(this.examenesToolStripMenuItem_Click);
             // 
             // ingresraToolStripMenuItem
             // 
             this.ingresraToolStripMenuItem.Name = "ingresraToolStripMenuItem";
-            this.ingresraToolStripMenuItem.Size = new System.Drawing.Size(125, 22);
+            this.ingresraToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.ingresraToolStripMenuItem.Text = "Ingresar";
             this.ingresraToolStripMenuItem.Click += new System.EventHandler(this.ingresraToolStripMenuItem_Click);
             // 
             // consultarToolStripMenuItem3
             // 
             this.consultarToolStripMenuItem3.Name = "consultarToolStripMenuItem3";
-            this.consultarToolStripMenuItem3.Size = new System.Drawing.Size(125, 22);
+            this.consultarToolStripMenuItem3.Size = new System.Drawing.Size(152, 22);
             this.consultarToolStripMenuItem3.Text = "Consultar";
             this.consultarToolStripMenuItem3.Click += new System.EventHandler(this.consultarToolStripMenuItem3_Click);
             // 
             // modificarToolStripMenuItem3
             // 
             this.modificarToolStripMenuItem3.Name = "modificarToolStripMenuItem3";
-            this.modificarToolStripMenuItem3.Size = new System.Drawing.Size(125, 22);
+            this.modificarToolStripMenuItem3.Size = new System.Drawing.Size(152, 22);
             this.modificarToolStripMenuItem3.Text = "Modificar";
             // 
             // ordenMedicaToolStripMenuItem
@@ -321,8 +322,15 @@
             this.estadisticaToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.graficosToolStripMenuItem});
             this.estadisticaToolStripMenuItem.Name = "estadisticaToolStripMenuItem";
-            this.estadisticaToolStripMenuItem.Size = new System.Drawing.Size(74, 20);
-            this.estadisticaToolStripMenuItem.Text = "Estadistica";
+            this.estadisticaToolStripMenuItem.Size = new System.Drawing.Size(77, 20);
+            this.estadisticaToolStripMenuItem.Text = "Estadística ";
+            // 
+            // graficosToolStripMenuItem
+            // 
+            this.graficosToolStripMenuItem.Name = "graficosToolStripMenuItem";
+            this.graficosToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.graficosToolStripMenuItem.Text = "Gráfico ";
+            this.graficosToolStripMenuItem.Click += new System.EventHandler(this.graficosToolStripMenuItem_Click);
             // 
             // reporteToolStripMenuItem
             // 
@@ -422,17 +430,10 @@
             this.timer1.Interval = 1000;
             this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
-            // graficosToolStripMenuItem
-            // 
-            this.graficosToolStripMenuItem.Name = "graficosToolStripMenuItem";
-            this.graficosToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
-            this.graficosToolStripMenuItem.Text = "Graficos";
-            this.graficosToolStripMenuItem.Click += new System.EventHandler(this.graficosToolStripMenuItem_Click);
-            // 
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.panel1.BackgroundImage = global::CapaPresentacion.Properties.Resources.cibbva_retos_transformacion_en_innovacion_en_las_empresas;
+            this.panel1.BackgroundImage = global::CapaPresentacion.Properties.Resources.fondo7;
             this.panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.panel1.Controls.Add(this.panel2);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
@@ -444,7 +445,7 @@
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.panel2.BackgroundImage = global::CapaPresentacion.Properties.Resources.cibbva_retos_transformacion_en_innovacion_en_las_empresas;
+            this.panel2.BackgroundImage = global::CapaPresentacion.Properties.Resources.fondo7;
             this.panel2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.panel2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel2.Location = new System.Drawing.Point(0, 0);
@@ -457,6 +458,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = global::CapaPresentacion.Properties.Resources.fondo7;
             this.ClientSize = new System.Drawing.Size(908, 622);
             this.Controls.Add(this.toolStrip1);
             this.Controls.Add(this.panel1);

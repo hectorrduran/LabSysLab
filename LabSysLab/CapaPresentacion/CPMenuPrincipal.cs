@@ -245,5 +245,10 @@ namespace CapaPresentacion
             obj = form;
             cambiodepantalla(obj);
         }
+
+        private void examenesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
